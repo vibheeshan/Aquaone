@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "Turbidity & Waterborne Illness",
+    "domain": "Environmental → Human",
+    "icon": "🌊",
+    "summary": "Turbid water harbors suspended microbial pathogens and shields bacteria from natural solar UV disinfection.",
+    "action": "Avoid direct ingestion or domestic use without certified multi-barrier filtration and boiling.",
+    "source": "WHO Guidelines for Drinking-water Quality (4th ed.)",
+    "relevance_trigger": "turbidity > 25 NTU or water_clarity == 'Very muddy'"
+  },
+  {
+    "id": 2,
+    "title": "pH Imbalance & Aquatic Gill Health",
+    "domain": "Environmental → Animal",
+    "icon": "🐠",
+    "summary": "Water pH below 6.5 or above 8.5 induces severe mucus secretion on fish gills, impairing gas exchange and juvenile survival.",
+    "action": "Investigate acidic industrial effluent or agricultural lime runoff upstream immediately.",
+    "source": "US EPA Aquatic Life Ambient Water Quality Criteria",
+    "relevance_trigger": "ph < 6.5 or ph > 8.5"
+  },
+  {
+    "id": 3,
+    "title": "Algae Blooms & Cyanotoxin Livestock Hazard",
+    "domain": "Environmental → Animal",
+    "icon": "🌱",
+    "summary": "Nutrient-rich stagnant water spawns cyanobacteria producing microcystin hepatotoxins lethal to drinking cattle and dogs.",
+    "action": "Fence off stream access for livestock and report immediate green scum layers to agricultural extension officers.",
+    "source": "FAO Veterinary Public Health & Water Quality Manual",
+    "relevance_trigger": "algae == 'Dense mats' or algae == 'Moderate'"
+  },
+  {
+    "id": 4,
+    "title": "Raw Sewage & Enteric Pathogen Outbreaks",
+    "domain": "Environmental → Human",
+    "icon": "👤",
+    "summary": "Untreated sewage introduces Vibrio cholerae, Salmonella, and rotaviruses directly into downstream community bathing waters.",
+    "action": "Issue municipal sanitary notices and trace point-source septic bypasses within 500 meters.",
+    "source": "CDC Global Water, Sanitation, & Hygiene (WASH)",
+    "relevance_trigger": "odor == 'Rotten Egg / Sewage' or waste == 'High'"
+  },
+  {
+    "id": 5,
+    "title": "Water Stagnation & Arboviral Vector Breeding",
+    "domain": "Environmental → Animal → Human",
+    "icon": "🦟",
+    "summary": "Blocked stream channels and sluggish flow speeds create optimal oviposition sites for Aedes and Culex mosquito species.",
+    "action": "Initiate community channel de-silting and remove plastic obstructions to restore natural hydrodynamics.",
+    "source": "National Vector Borne Disease Control Programme (NVBDCP)",
+    "relevance_trigger": "flow_speed == 'Stagnant' or waste == 'High'"
+  },
+  {
+    "id": 6,
+    "title": "Plastic Waste & Freshwater Microplastic Ingestion",
+    "domain": "Environmental → Animal",
+    "icon": "🗑️",
+    "summary": "Degrading synthetic polymers fragment into microfibers that block digestive tracts of native benthic organisms and fish fry.",
+    "action": "Organize stream cleanup drives with proper solid-waste segregation and barrier netting.",
+    "source": "UNEP Marine and Freshwater Litter Assessment",
+    "relevance_trigger": "waste == 'Moderate' or waste == 'High'"
+  },
+  {
+    "id": 7,
+    "title": "Sedimentation & Benthic Spawning Smothering",
+    "domain": "Environmental → Environment",
+    "icon": "🏞️",
+    "summary": "Uncontrolled bank erosion blankets pebble beds with fine silt, eliminating oxygenated microhabitats for mayfly nymphs.",
+    "action": "Establish vetiver grass and native tree riparian buffers along exposed embankments.",
+    "source": "Freshwater Biological Association Stream Hydrology Guide",
+    "relevance_trigger": "water_clarity == 'Very muddy' or turbidity > 50 NTU"
+  },
+  {
+    "id": 8,
+    "title": "Nutrient Overload & Eutrophic Hypoxia",
+    "domain": "Environmental → Animal/Environment",
+    "icon": "🌾",
+    "summary": "Agricultural fertilizer runoff triggers midnight dissolved oxygen crashes as decaying organic matter consumes oxygen.",
+    "action": "Encourage precision irrigation and contour planting to reduce overland fertilizer drift.",
+    "source": "IPBES Global Assessment on Biodiversity and Ecosystem Services",
+    "relevance_trigger": "dissolved_oxygen < 4.0 or algae != 'None'"
+  },
+  {
+    "id": 9,
+    "title": "Heavy Metal Bioaccumulation in Food Chains",
+    "domain": "Environmental → Animal → Human",
+    "icon": "⚠️",
+    "summary": "Persistent industrial contaminants concentrate in trophic predators, leading to neurotoxic risks in fish-consuming populations.",
+    "action": "Enforce zero-liquid discharge regulations for upstream plating, tanning, and textile units.",
+    "source": "Lancet Commission on Pollution and Health",
+    "relevance_trigger": "risk_level == 'critical' or health_score < 40"
+  },
+  {
+    "id": 10,
+    "title": "Riparian Buffer Degradation & Flash Flood Vulnerability",
+    "domain": "Environmental → Human/Community",
+    "icon": "🌳",
+    "summary": "Loss of natural wetlands and riverbank vegetation accelerates runoff velocity and increases downstream flood severity.",
+    "action": "Designate community catchment reserves and preserve natural floodplain meanders.",
+    "source": "UNDRR Sendai Framework for Disaster Risk Reduction",
+    "relevance_trigger": "biodiversity == 'Sparse' or health_score < 50"
+  }
+]

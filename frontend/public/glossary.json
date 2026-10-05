@@ -1,0 +1,142 @@
+[
+  {
+    "term": "Turbidity",
+    "simple": "How clear or cloudy the water looks.",
+    "example": "Clear water scores high, while muddy brown water scores low due to suspended particles.",
+    "category": "Water Quality",
+    "image_url": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=400"
+  },
+  {
+    "term": "pH Level",
+    "simple": "A measure of how acidic or alkaline the water is.",
+    "example": "Healthy streams usually range between 6.5 and 8.5. Extreme values harm aquatic life.",
+    "category": "Water Quality",
+    "image_url": ""
+  },
+  {
+    "term": "Dissolved Oxygen (DO)",
+    "simple": "The amount of oxygen gas dissolved in the water for fish and insects to breathe.",
+    "example": "High dissolved oxygen (>6 mg/L) indicates healthy, fast-moving and aerated water.",
+    "category": "Water Quality",
+    "image_url": ""
+  },
+  {
+    "term": "Biodiversity",
+    "simple": "The variety of living animals, insects, fish, and plants in and around the stream.",
+    "example": "Seeing dragonflies, minnows, and freshwater snails is a great indicator of high biodiversity.",
+    "category": "Ecosystem",
+    "image_url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=400"
+  },
+  {
+    "term": "Algae Bloom",
+    "simple": "Rapid overgrowth of microscopic green algae caused by excess nutrients.",
+    "example": "Thick green mats can deplete oxygen at night and block sunlight from reaching underwater plants.",
+    "category": "Pollution",
+    "image_url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=400"
+  },
+  {
+    "term": "Sedimentation",
+    "simple": "Loose soil and sand washing into the stream and settling on the bed.",
+    "example": "Heavy construction runoff smothers gravel beds where fish lay eggs.",
+    "category": "Physical",
+    "image_url": ""
+  },
+  {
+    "term": "Coliform Bacteria",
+    "simple": "Microorganisms that indicate contamination from human or animal waste.",
+    "example": "Presence suggests untreated sewage entering the waterway, increasing disease risk.",
+    "category": "One Health",
+    "image_url": ""
+  },
+  {
+    "term": "Riparian Buffer",
+    "simple": "The vegetated strip of trees, bushes, and grasses along the stream banks.",
+    "example": "Native trees filter polluted runoff before it reaches the stream and provide cooling shade.",
+    "category": "Ecosystem",
+    "image_url": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=400"
+  },
+  {
+    "term": "Nitrates & Phosphates",
+    "simple": "Nutrients commonly found in agricultural fertilizers, detergents, and sewage.",
+    "example": "Excess fertilizer runoff triggers dangerous algae blooms downstream.",
+    "category": "Pollution",
+    "image_url": ""
+  },
+  {
+    "term": "Macroinvertebrates",
+    "simple": "Small spineless animals visible to the naked eye, such as dragonfly nymphs and mayflies.",
+    "example": "Mayflies and caddisflies are sensitive to pollution and only live in clean water.",
+    "category": "Biodiversity",
+    "image_url": ""
+  },
+  {
+    "term": "Benthic Zone",
+    "simple": "The lowest ecological region of a stream, including the sediment surface and sub-surface.",
+    "example": "Healthy benthic zones have clean pebbles and gravel rather than toxic anaerobic sludge.",
+    "category": "Ecosystem",
+    "image_url": ""
+  },
+  {
+    "term": "Conductivity",
+    "simple": "The ability of water to pass an electrical current, indicating dissolved mineral salts.",
+    "example": "A sudden jump in conductivity often indicates industrial discharge or sewage leaks.",
+    "category": "Water Quality",
+    "image_url": ""
+  },
+  {
+    "term": "Bioaccumulation",
+    "simple": "The buildup of toxic chemicals inside living organisms over time.",
+    "example": "Heavy metals accumulate in small fish and become concentrated in predator birds and humans.",
+    "category": "One Health",
+    "image_url": ""
+  },
+  {
+    "term": "Eutrophication",
+    "simple": "When excess nutrients stimulate plant and algae growth, depleting oxygen as they decay.",
+    "example": "Eutrophic streams turn pea-soup green and can cause fish die-offs during warm summer nights.",
+    "category": "Ecosystem",
+    "image_url": ""
+  },
+  {
+    "term": "Watershed",
+    "simple": "The entire land area that drains rain and snowmelt into a specific stream or river.",
+    "example": "What happens on farmland 10 km upstream directly influences stream health downstream.",
+    "category": "Hydrology",
+    "image_url": ""
+  },
+  {
+    "term": "Baseflow",
+    "simple": "The sustained portion of streamflow derived from groundwater seepage rather than direct rain runoff.",
+    "example": "Baseflow keeps streams flowing naturally during dry summer spells.",
+    "category": "Hydrology",
+    "image_url": ""
+  },
+  {
+    "term": "Total Suspended Solids (TSS)",
+    "simple": "Solid particles suspended in water that can be trapped by a laboratory filter.",
+    "example": "High TSS clouds water, warms stream temperatures, and clogs fish gills.",
+    "category": "Water Quality",
+    "image_url": ""
+  },
+  {
+    "term": "Vector Breeding Habitat",
+    "simple": "Stagnant or polluted water bodies where disease-carrying insects (like mosquitoes) reproduce.",
+    "example": "Blocked urban drains with slow-moving water create breeding grounds for Dengue vectors.",
+    "category": "One Health",
+    "image_url": ""
+  },
+  {
+    "term": "Thermal Pollution",
+    "simple": "The degradation of water quality by any process that changes ambient water temperature.",
+    "example": "Unshaded concrete channels heat up water, reducing oxygen capacity and stressing cold-water organisms.",
+    "category": "Physical",
+    "image_url": ""
+  },
+  {
+    "term": "One Health",
+    "simple": "An integrated approach recognizing that human health, animal health, and environmental ecosystems are closely linked.",
+    "example": "Cleaning local waterways protects livestock from disease and secures safe community drinking water.",
+    "category": "One Health",
+    "image_url": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=400"
+  }
+]

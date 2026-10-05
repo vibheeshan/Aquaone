@@ -1,0 +1,22 @@
+{
+  "title": "Smart Stream Assessment",
+  "subtitle": "5 simple visual steps to monitor stream health with AI validation.",
+  "step1_title": "Where are you?",
+  "step1_desc": "Select your stream or auto-detect with GPS.",
+  "step2_title": "How does the water look?",
+  "step2_desc": "Pick the color card matching stream clarity.",
+  "step3_title": "Any smells or pollution?",
+  "step3_desc": "Select odors, visible litter, or surface issues.",
+  "step4_title": "Take a photo",
+  "step4_desc": "Capture photo evidence for AI computer vision.",
+  "step5_title": "Review & submit",
+  "step5_desc": "Confirm your answers and submit for +30 XP.",
+  "btn_next": "Next Step",
+  "btn_back": "Back",
+  "btn_submit": "Submit Observation",
+  "btn_saving_offline": "Saved Offline (Will auto-sync)",
+  "gps_auto": "Auto-Detect GPS",
+  "voice_record": "Voice Note (Tap to record)",
+  "voice_listening": "Listening... Speak now",
+  "glossary_help": "Glossary Tooltip"
+}

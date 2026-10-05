@@ -1,0 +1,85 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+aquaone.db
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Test & coverage outputs
+.pytest_cache/
+.coverage
+htmlcov/
+.hypothesis/
+
+# Logs
+*.log
+
+# Markdown files (except README.md)
+*.md
+!README.md
+
+# Docker files
+Dockerfile
+Dockerfile.*
+.dockerignore
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Testing & linting caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local databases
+aquaone.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment files
+.env
+.env.local
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# ML model artifacts
+*.pkl
+*.joblib
+
+# Uploads & logs
+uploads/
+*.log
