@@ -372,7 +372,7 @@ The orchestrator coordinates these specialized capabilities according to the use
 - FastAPI
 
 ### Database
-
+- SQL Lite
 - PostgreSQL
 - PostGIS
 
